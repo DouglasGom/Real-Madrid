@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristiano Ronaldo</title>
+  <link rel="shortcut icon" type="image/icon" href="assets/images/logo/l243.png"/>
+
+  <!--font-family-->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("/assets/images/artilheiros/Captura\ de\ tela\ 2024-03-08\ 084252.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding-top: 370px;
+    }
+
+    .navbar {
+      background-color: #000;
+      color: #fff;
+      padding: 15px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .navbar img {
+      max-height: 50px;
+      margin-left: 170px; /* Espaço à esquerda da logo */
+    }
+
+    .nav-list {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      margin-right: 170px;
+    }
+
+    .nav-item {
+      margin-right: 50px; /* Espaçamento entre os links */
+    }
+
+    .nav-link {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out; /* Efeito de transição no hover */
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .nav-link:hover {
+      color: #4169e1; /* Efeito hover na cor #4169e1 */
+    }
+
+    .news-container {
+      display: flex;
+      flex-direction: column; /* Ajuste para organização vertical */
+      max-width: 1310px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 70px; /* Ajuste da margem superior */
+    }
+
+    .news-image {
+      max-width: 100%; /* Ajuste para ocupar toda a largura da notícia */
+      overflow: hidden;
+      position: relative;
+    }
+
+    .news-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .news-content {
+      padding: 20px;
+    }
+
+    .recommendations {
+      padding: 30px;
+      width: 710px;
+      background-color: #f9f9f9;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 20px; /* Ajuste da margem superior */
+    }
+
+    .recommendation-card {
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .recommendation-card img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    h6{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 20px;
+    }
+
+    article {
+      max-width: 1000px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      max-width: 55%;
+      height: 40px;
+      margin-left: 230px;
+      margin-bottom: 30px;      
+    }
+
+    section {
+      margin-top: 20px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-left: 50px;
+      margin-right: 50px;
+      text-align: justify;
+    }
+
+    .comments {
+      margin-top: 20px;
+    }
+
+    .comment {
+      margin-bottom: 15px;
+    }
+
+    /* section-header */
+.section-header{
+    position: relative;
+    text-align: center;
+}
+.section-header h2{
+    position: relative;
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 35px;
+    color: #000;
+}
+.section-header h2:before {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -42px;
+    background: #4e4ffa;
+}
+.section-header p{color: #6a6a6a;text-transform: capitalize;margin-bottom:10px;}
+.section-header h2 span,.section-header p span{text-transform: lowercase;}
+
+/* section-header */
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="logo">
+      <a class="navbar-brand" href="index.html"><img src="/assets/images/logo/l243.png" style="height:50px;"><span></span></a>
+    </div>
+    <ul class="nav-list">
+      <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+      <li class="nav-item"><a href="index.html" class="nav-link">CHAMPIONS</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">CURIOSIDADES</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">JOGADORES</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">ARTILHEIROS</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">TÍTULOS</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">SOBRE</a></li>
+    </ul>
+  </div>
+  
+  <article>
+    <div class="section-header">
+      <h2>Cristiano Ronaldo</h2>
+    </div>
+  
+    <img src="/assets/images/champions/cr7(1).jpeg" alt="Imagem da Notícia">
+    
+    <section>
+      <p>Cristiano Ronaldo, uma lenda viva do futebol mundial, deixou uma marca profunda durante sua passagem pelo Real Madrid, o maior clube do mundo. Sua trajetória no clube espanhol, que se estendeu de 2009 a 2018, é repleta de conquistas, momentos memoráveis e um legado que transcende as linhas do campo.
+        <img src="/assets/images/artilheiros/cr7.jpeg" alt="Imagem da Notícia">
+        Quando Cristiano Ronaldo ingressou no Real Madrid vindo do Manchester United em 2009, sua chegada foi marcada por uma transferência recorde na época. Desde o primeiro momento, ficou claro que Ronaldo não estava apenas vestindo a camisa merengue; ele personificava a busca incessante por excelência e a busca pela grandeza.
+        Durante suas nove temporadas no Real Madrid, Cristiano Ronaldo conquistou uma impressionante lista de títulos, incluindo quatro títulos da UEFA Champions League. Sua capacidade incrível de marcar gols, habilidade atlética e dedicação incansável aos treinos tornaram-no não apenas o líder em campo, mas também uma figura inspiradora para seus companheiros de equipe e fãs ao redor do mundo.
+        Uma das temporadas mais memoráveis de Ronaldo no Real Madrid foi a temporada 2013-2014, na qual ele ajudou a equipe a conquistar a tão desejada "La Décima", a décima taça da Liga dos Campeões da UEFA na história do clube. Seu desempenho excepcional e sua capacidade de decidir jogos cruciais elevaram-no a um patamar único no cenário do futebol mundial.
+        Além dos títulos coletivos, Cristiano Ronaldo também colecionou prêmios individuais durante sua estadia no Real Madrid, incluindo quatro Bolas de Ouro da FIFA. Sua rivalidade saudável com 
+        Lionel Messi durante esse período tornou-se uma narrativa fascinante para os fãs do futebol, que testemunharam um duelo épico entre dois dos maiores jogadores de todos os tempos.
+        Fora do campo, Cristiano Ronaldo também deixou sua marca através de sua generosidade e envolvimento em causas sociais. Sua influência global não se limita apenas ao esporte, mas também abrange questões humanitárias e de caridade.
+        Ao se despedir do Real Madrid em 2018, Cristiano Ronaldo deixou um vazio que seria difícil de preencher. No entanto, sua contribuição inestimável para a história do clube e sua conexão eterna com os torcedores continuam a ecoar nos corredores do Santiago Bernabéu. Cristiano Ronaldo não apenas usou a camisa do Real Madrid; ele imortalizou seu nome na galeria de lendas do clube, deixando um legado que será lembrado por gerações.</p>
+    </section>
+  </article>
+
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+</body>
+</html>
